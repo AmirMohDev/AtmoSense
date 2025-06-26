@@ -1,0 +1,6 @@
+.background{
+    background-image: url("../../assets/image/backintro.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
