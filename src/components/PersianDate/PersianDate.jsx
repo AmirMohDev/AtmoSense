@@ -35,8 +35,10 @@ const months = [
   }, []);
   return (
     <>
-      <h2 className=" text-[35px]">{Time}</h2>
-      <h3 className="text-[17px]">{WeekDay}</h3>
+    <div className="flex items-center justify-between">
+      <h2 className="text-[25px]">{WeekDay}</h2>
+      <h2 className=" text-[25px]">{Time}</h2>
+    </div>
     </>
   );
 };
